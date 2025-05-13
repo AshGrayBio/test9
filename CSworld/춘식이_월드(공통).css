@@ -1,0 +1,151 @@
+body { 
+    margin: 0;
+    padding: 0; 
+    height: 5000px;
+    position: relative;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.blind {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+} 
+
+.content_box {
+    width: 1400px;
+    margin: 0 auto;
+
+    height: 100%;
+    position: relative; 
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: gray;
+    opacity: 0.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    width: 350px;
+    height: 45px;
+    box-shadow: 0 0 10px 0 #f0b207;
+    box-sizing: border-box;
+    border-radius: 23px;
+    overflow: hidden;
+}
+.keyword {
+    width: calc(100% - 45px);
+    height: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+    padding-left: 20px;
+}
+.search_icon {
+    width: 45px;
+    height: 45px;
+    background: #fff url(../img/google_search.svg) no-repeat center;
+    cursor: pointer;
+    float: right;
+}
+
+.shopping {
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+}
+
+.menu {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.menu_items {
+    position: absolute;
+    background: rgba(0,0,0,0.5); 
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 0 #555;
+    z-index: 99999999;
+    display: none;
+}
+
+.cat_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.cat_list>li>ul>li{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0;
+}
+
+.cat_thumb {
+    color: rgb(244, 247, 82) !important;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+
+.rec_items {
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec_text {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #f7f7f7;
+    
+}
+
+.inner_footer {
+    padding: 30px 0 0 0;
+    font-size: 12px;
+    box-sizing: border-box;
+}
