@@ -68,7 +68,7 @@ a {
 .search_icon {
     width: 45px;
     height: 45px;
-    background: #fff url(../img/google_search.svg) no-repeat center;
+    background: #fff url(./img/google_search.svg) no-repeat center;
     cursor: pointer;
     float: right;
 }
