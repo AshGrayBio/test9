@@ -1,0 +1,51 @@
+.swiper1 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.swiper1 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+.swiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+    }
+
+.swiper2 .swiper-slide img {
+        display: block;
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.swiper2 .swiper {
+        width: 100%;
+        height: 300px;
+        margin: 20px auto;
+    }
+
+.swiper1 {
+    margin-bottom: 250px;
+}
+
+.swiper2 {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* 800px 반응형 */
